@@ -51,7 +51,7 @@ When you have a program that generates this pattern, define a binding size = 8 a
 so that it works for any size, outputting a grid of the given width and height.*/
 console.log("\n");
 let board = ""; // Set the variable for the board to an empty string
-let size = 20; // Set the size of the board
+let size = 2; // Set the size of the board
 for (let i = 1; i <= size; i++) { 
    for (let j = 1; j <= size; j++) {
        if ((j + i) % 2 === 0) { // If the board space is even it is a space
